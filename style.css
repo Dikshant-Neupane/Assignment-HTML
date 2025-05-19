@@ -1,0 +1,73 @@
+body {
+  background-color: #2a6f77;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 10px #000;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 220px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.header {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.fruits {
+  background: linear-gradient(to right, #a6ce39, #dce35b);
+}
+
+.vegetables {
+  background: linear-gradient(to right, #7f00ff, #e100ff);
+}
+
+.groceries {
+  background: linear-gradient(to right, #f857a6, #ff5858);
+}
+
+ol, ul {
+  margin: 0;
+  padding: 20px;
+  list-style-position: inside;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.vegetables ul {
+  list-style-type: square;
+}
+
+.fruits ul {
+    list-style-type: circle;
+}
+.groceries ul {
+  list-style-type: disc;
+}
