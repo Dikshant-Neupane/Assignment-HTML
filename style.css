@@ -41,15 +41,16 @@ h1 {
   text-underline-offset: 5px;
 }
 
-.fruits {
+/* Gradient backgrounds for headers */
+.fruits .header {
   background: linear-gradient(to right, #a6ce39, #dce35b);
 }
 
-.vegetables {
+.vegetables .header {
   background: linear-gradient(to right, #7f00ff, #e100ff);
 }
 
-.groceries {
+.groceries .header {
   background: linear-gradient(to right, #f857a6, #ff5858);
 }
 
@@ -61,13 +62,18 @@ ol, ul {
   font-size: 16px;
 }
 
-.vegetables ul {
-  list-style-type: square;
+
+ol > li {
+  background: linear-gradient(to right, #a6ce39, #dce35b);
+  margin: 20px;
 }
 
-.fruits ul {
-    list-style-type: circle;
+.vegetables > ul > li {
+  background: linear-gradient(to right,#7f00ff, #e100ff);
+  margin: 20px;
 }
-.groceries ul {
-  list-style-type: disc;
+
+.groceries > ul > li {
+  background: linear-gradient(to right, #f857a6, #ff5858);
+  margin: 20px;
 }
